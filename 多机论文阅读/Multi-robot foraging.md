@@ -24,7 +24,15 @@ $$
 
 ![1](images/1.png)
 
+多机搜索分为两个分支：
 
+- multi-robot efficient search (MuRES)
+
+  协调一组机器人以最小化期望搜索努力定位移动目标点
+
+- multi-robot guaranteed search (MuRGS)
+
+  机器人最终找到目标点不管目标的感受和运动特点
 
 
 
