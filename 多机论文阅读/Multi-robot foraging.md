@@ -34,15 +34,17 @@ $$
 
   机器人最终找到目标点不管目标的感受和运动特点
 
+### 3.《Cooperative Control for Multi-Player Pursuit-Evasion Games With Reinforcement Learning》
 
+内容：使用了两种通信网络架构，MARL-Ring和MARL-line，而不是常用的广播通信的方式，减少了计算和通信资源，此外，通信网络是神经网络，将信息抽象后输入到策略网络和价值网络，这种方式其实就已经把其他机器人位置信息以及与目标的信息包括进来。**进行了丰富的实验对比和分析，后续可以参考**
 
+![2](images/2.png)
 
+<center>MARL-ring(所有机器人知道目标点位置)</center>
 
+![3](images/3.png)
 
-
-
-
-
+<center>MARL-line(只有leader知道目标点位置，即Pursure-1)</center>
 
 
 
