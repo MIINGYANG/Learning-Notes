@@ -46,7 +46,13 @@ $$
 
 <center>MARL-line(只有leader知道目标点位置，即Pursure-1)</center>
 
+### 4.《Multi-Agent Cooperative Target Search Based on Reinforcement Learning》
 
+内容：
+
+1. 将概率地图迁移到状态观测中
+2. 为了避免因为特征维度不同导致有些特征被淹没，采用了将其他机器人位置信息变为离散高斯分布的形式设计了一个矩阵保存位置信息
+3. 采用了相对稳定的分布式训练策略
 
 
 
